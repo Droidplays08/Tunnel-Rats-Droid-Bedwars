@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!op_item] run function droid_op_item:op_item

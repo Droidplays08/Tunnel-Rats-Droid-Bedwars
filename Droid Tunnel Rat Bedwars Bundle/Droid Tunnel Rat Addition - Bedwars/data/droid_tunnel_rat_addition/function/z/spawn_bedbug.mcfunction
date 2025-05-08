@@ -1,0 +1,3 @@
+execute if entity @s[tag=team1] run summon silverfish ~ ~ ~ {CustomName:'[{"text":"Bedbug","color":"red"}]',Health:10,Tags:["time_lived","bedbug"],attributes:[{id:attack_damage,base:3f},{id:max_health,base:10f}],Team:team1}
+execute if entity @s[tag=team2] run summon silverfish ~ ~ ~ {CustomName:'[{"text":"Bedbug","color":"red"}]',Health:10,Tags:["time_lived","bedbug"],attributes:[{id:attack_damage,base:3f},{id:max_health,base:10f}],Team:team2}
+kill @s

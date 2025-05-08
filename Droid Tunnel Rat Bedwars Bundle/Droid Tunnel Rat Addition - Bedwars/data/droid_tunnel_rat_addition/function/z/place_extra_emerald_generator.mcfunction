@@ -1,0 +1,5 @@
+execute unless block ~ ~-1 ~ air run setblock ~ ~ ~ spawner{SpawnCount:1,MaxNearbyEntities:1,SpawnRange:4,MinSpawnDelay:1100,MaxSpawnDelay:1300,RequiredPlayerRange:100000,SpawnData:{entity:{id:armor_stand,Invisible:1b,Small:1b,DisabledSlots:4144959,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:["bedwars_emerald_generator"]}}}
+execute unless block ~ ~-1 ~ air run summon marker ~ ~ ~ {Tags:["extra_emerald_generator_marker","time_lived","extra_generator_marker"]}
+execute if block ~ ~-1 ~ air run setblock ~ ~1 ~ spawner{SpawnCount:1,MaxNearbyEntities:1,SpawnRange:4,MinSpawnDelay:1100,MaxSpawnDelay:1300,RequiredPlayerRange:100000,SpawnData:{entity:{id:armor_stand,Invisible:1b,Small:1b,DisabledSlots:4144959,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:["bedwars_emerald_generator"]}}}
+execute if block ~ ~-1 ~ air run summon marker ~ ~1 ~ {Tags:["extra_emerald_generator_marker","time_lived","extra_generator_marker"]}
+kill @s

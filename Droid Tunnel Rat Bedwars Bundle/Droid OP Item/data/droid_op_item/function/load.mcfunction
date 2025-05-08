@@ -1,0 +1,1 @@
+tellraw @a {"text":"Loaded Droid OP Item. Items will no longer be destroyable.","color":"white"}

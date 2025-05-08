@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:consume_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"throwable_fireball_strong":true}
+		}}}
+	}},
+	"rewards": { "function": "droid_throwable_projectile:use_throwable_fireball_strong" }
+}
