@@ -1,0 +1,42 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:max_stack_size": 64,
+                  "minecraft:item_model": "minecraft:fire_charge",
+                  "minecraft:item_name": "{\"text\":\"Throwable Fireball\",\"color\":\"aqua\"}",
+                  "minecraft:custom_data": "{\"throwable_fireball\":true}",
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "animation": "block",
+                    "sound": "minecraft:entity.blaze.shoot",
+                    "has_consume_particles": false
+                  },
+                  "minecraft:use_cooldown": {
+                    "seconds": 5,
+                    "cooldown_group": "throwable_fireball:throwable_fireball"
+                  },
+                  "minecraft:lore": [
+                    "{\"text\":\"Right Click to throw fireball\",\"italic\":false,\"color\":\"red\"}",
+                    "{\"text\":\"Cooldown: 5s\",\"italic\":false,\"color\":\"green\"}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Beware Damage of fireball can\",\"italic\":false,\"color\":\"dark_red\"}",
+                    "{\"text\":\"also implact the user!\",\"italic\":false,\"color\":\"dark_red\"}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

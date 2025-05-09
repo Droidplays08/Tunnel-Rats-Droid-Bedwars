@@ -1,0 +1,2 @@
+advancement revoke @s only droid_throwable_projectile:use_throwable_fireball
+execute anchored eyes run summon fireball ^ ^-0.5 ^0.5 {ExplosionPower:2,Tags:["throwable_fireball","motion_medium","time_lived","time_lived_400"]}
